@@ -587,4 +587,4 @@ var data = {/**some big data**/}
 data = null;
 ```
 
-4. 
+4. 变量查找优化
