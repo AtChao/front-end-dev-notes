@@ -649,3 +649,4 @@ getData(function(err,data){
 + 复杂的js对象，其创建时间和空间的开销都很大，应该尽量考虑使用缓存
 + 尽量使用json格式来创建对象，而不是var obj = new Object().前者是直接复制，而后者需要调用构造器。
 
+2. 对象查找
