@@ -585,5 +585,4 @@ HTTP 2相对于 HTTP 1.1的更新大部分集中于：
 var data = {/**some big data**/}
 //...
 data = null
-
 ```
