@@ -586,3 +586,5 @@ var data = {/**some big data**/}
 //...
 data = null;
 ```
+
+4. 
