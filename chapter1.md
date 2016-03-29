@@ -634,3 +634,4 @@ getData(function(err,data){
 ```
 回调函数是一种后续传递风格（Continuation Passing Style,CPS) 的技术，这种风格的程序编写将函数的业务重点从返回值转移到回调函数中去，而且其相比闭包的好处也有很多。
 
++ 
