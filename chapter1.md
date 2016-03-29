@@ -650,3 +650,5 @@ getData(function(err,data){
 + 尽量使用json格式来创建对象，而不是var obj = new Object().前者是直接复制，而后者需要调用构造器。
 
 2. 对象查找
+
++ 
