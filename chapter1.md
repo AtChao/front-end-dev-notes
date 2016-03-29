@@ -674,11 +674,11 @@ getData(function(err,data){
   - 从大到小的方式循环
 + while
 
-for和while的性能基本持平
+  for和while的性能基本持平
 
 + for(in)
 
-在这三个循环中for(in)内部实现是构造一个所有元素的列表，包括array继承的属性，然后再开始循环，并且需要查询`hasOwnProperty`。
+  在这三个循环中for(in)内部实现是构造一个所有元素的列表，包括array继承的属性，然后再开始循环，并且需要查询`hasOwnProperty`。
     
 + 选择正确的方法
 + 避免在循环中使用try-catch,入锅需要异常处理机制，可以将其放在循环外层使用
