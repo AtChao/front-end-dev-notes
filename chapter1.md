@@ -641,3 +641,5 @@ getData(function(err,data){
 ### 2.4.4 对象专题
 
 1. 减少不必要的对象创建
+
++ 
