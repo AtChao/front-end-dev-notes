@@ -623,4 +623,9 @@ jQuery.extend = jQuery.n.extend = function(){
 
 除了使用闭包进行内部变量访问，我们还可以使用现在流行的回调函数来进行业务处理
 
+```javascript
+function getData(callback){
+  var data='some big data';
+  callback(null,data)
+}
 ```
