@@ -724,6 +724,7 @@ getData(function(err,data){
       var iterations = Math.ceil(values.length/8);
       var startAt = values.length%8;
       var i=0;
+      if(leftover>0)
       ```
 3. 避免在循环中使用try-catch,入锅需要异常处理机制，可以将其放在循环外层使用
 4. 避免遍历大量元素
