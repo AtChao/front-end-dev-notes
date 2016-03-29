@@ -103,7 +103,7 @@ $ ionic serve
 ```
 然后就可以在浏览器中查看效果。这里需要注意的是，在此处会发生异常：
 
-![Error TS2006](error-ts2661.png)
+![Error TS2006](images/error-ts2661.png)
 
 需要添加
 
