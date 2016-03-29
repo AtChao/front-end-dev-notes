@@ -615,4 +615,4 @@ jQuery.extend = jQuery.n.extend = function(){
 ```
 
 + 缓存重复使用的全局变量
-  - 
+  - 全局变量要比局部变量需要搜索的作用域长
