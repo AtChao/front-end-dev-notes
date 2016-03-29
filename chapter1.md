@@ -626,6 +626,9 @@ jQuery.extend = jQuery.n.extend = function(){
 ```javascript
 function getData(callback){
   var data='some big data';
-  callback(null,data)
+  callback(null,data);
 }
+getData(function(err,data){
+  console.log(data);
+})
 ```
