@@ -1,4 +1,4 @@
-# Ionic 2.0 踩坑实录
+# Ionic 2.0 & cordova 踩坑实录
 
 ## 工程创建
 ### Issue 
