@@ -729,6 +729,8 @@ getData(function(err,data){
           process(values[i++]);
         }while(--leftover>0)
       }
+      do{
+      }while(--iterations>0);
       ```
 3. 避免在循环中使用try-catch,入锅需要异常处理机制，可以将其放在循环外层使用
 4. 避免遍历大量元素
