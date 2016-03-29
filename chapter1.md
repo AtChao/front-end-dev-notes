@@ -657,4 +657,5 @@ getData(function(err,data){
 3. 对象属性
 
 访问对象属性是个消耗性能过程
-+ 
+
+ 
