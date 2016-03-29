@@ -702,6 +702,19 @@ getData(function(err,data){
       var values = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
       var iterations = Math.ceil(values.length/8);
       var startAt = values.length%8;
+      var i=0;
+      do{
+        switch(startAt){
+          case 0:process(values[i++]);
+          case 1:process(values[i++]);
+          case 2:process(values[i++]);
+          case 3:process(values[i++]);
+          case 4:process(values[i++]);
+          case 5:process(values[i++]);
+          case 6:process(values[i++]);
+          case 7:process(values[i++]);
+        }
+      }
       ```
     - 如上展开可以提升大数据集的处理速度。接下来给出更快的Duff装置技术，将do-while循环分成2个单独的循环（这种方式几乎比原始的Duff装置实现快上40%）
 3. 避免在循环中使用try-catch,入锅需要异常处理机制，可以将其放在循环外层使用
