@@ -718,5 +718,7 @@ getData(function(err,data){
       }while(--iterations<0);
       ```
     - 如上展开可以提升大数据集的处理速度。接下来给出更快的Duff装置技术，将do-while循环分成2个单独的循环（这种方式几乎比原始的Duff装置实现快上40%）
+      ```javascript
+      ```
 3. 避免在循环中使用try-catch,入锅需要异常处理机制，可以将其放在循环外层使用
 4. 避免遍历大量元素
