@@ -714,6 +714,7 @@ getData(function(err,data){
           case 6:process(values[i++]);
           case 7:process(values[i++]);
         }
+        startAt=0;
       }
       ```
     - 如上展开可以提升大数据集的处理速度。接下来给出更快的Duff装置技术，将do-while循环分成2个单独的循环（这种方式几乎比原始的Duff装置实现快上40%）
