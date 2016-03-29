@@ -601,6 +601,16 @@ data = null;
 + 具有相同作用域的变量通过一个var声明
 
 ```javascript
-
+jQuery.extend = jQuery.n.extend = function(){
+	var options，
+		name,
+		src,
+		copy,
+		copyIsArray,
+		clone,target = arguments[0] || {},
+		i = 1,
+		length = arguments.length,
+		deep = false;
+}
 ```
   
