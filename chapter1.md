@@ -730,6 +730,14 @@ getData(function(err,data){
         }while(--leftover>0)
       }
       do{
+        process(values[i++]);
+        process(values[i++]);
+        process(values[i++]);
+        process(values[i++]);
+        process(values[i++]);
+        process(values[i++]);
+        process(values[i++]);
+        process(values[i++]);
       }while(--iterations>0);
       ```
 3. 避免在循环中使用try-catch,入锅需要异常处理机制，可以将其放在循环外层使用
