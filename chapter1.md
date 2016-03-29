@@ -600,5 +600,5 @@ data = null;
   
 + 具有相同作用域的变量通过一个var声明
 
-```
+```javascript
   
