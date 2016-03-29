@@ -112,7 +112,7 @@ declare var Promise: PromiseConstructor;
 ```
 到`node_modules/angular2/src/facade/promise.d.ts`文件的头部：
 
-![add-promise.d.ts](do-with-ts2661.png)
+![add-promise.d.ts](images/do-with-ts2661.png)
 
 #### cordova
 
