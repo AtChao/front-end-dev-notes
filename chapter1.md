@@ -658,4 +658,4 @@ getData(function(err,data){
 
 访问对象属性是个消耗性能过程
 
- 
++ 
