@@ -615,4 +615,4 @@ jQuery.extend = jQuery.n.extend = function(){
 ```
 
 + 缓存重复使用的全局变量
-  -
+  - 
