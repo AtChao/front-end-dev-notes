@@ -722,7 +722,7 @@ getData(function(err,data){
       function process(v){ alert(v);}
       var values = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
       var iterations = Math.ceil(values.length/8);
-      var startAt = values.length%8;
+      var leftover = values.length%8;
       var i=0;
       if(leftover>0)
       ```
