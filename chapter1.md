@@ -882,5 +882,7 @@ getData(function(err,data){
     其中：local={} 在这里定义等效于：global.local={}
     
  3. 作用域链
+
+    
  4. 减少作用域链上的查找次数
  5. 闭包
