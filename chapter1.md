@@ -767,4 +767,5 @@ getData(function(err,data){
         return val;
       }
     }
+    global.bar = foo();
     ```
