@@ -945,3 +945,4 @@ getData(function(err,data){
         })(events[i]);
     }
     ```
+  + 避开闭包陷阱
