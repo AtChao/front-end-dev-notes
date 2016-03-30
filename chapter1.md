@@ -790,5 +790,5 @@ getData(function(err,data){
     var myObject = {};
     document.getElementById("myDiv").myProp = myObject;
     
-    解决方法：
+    解决方法：在onunload时间中写上
     ```
