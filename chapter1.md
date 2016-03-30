@@ -864,4 +864,5 @@ getData(function(err,data){
 
     with会创建自己的作用域，因此会增加其中执行代码的作用域的长度
   + 全局作用域
-  + 
+
+    ```javascript
