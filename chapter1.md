@@ -886,6 +886,7 @@ getData(function(err,data){
     在js编程中，会遇到多层函数嵌套的场景，这就是典型的作用域链的表示
     
     ```javascript
+    
     ```
  4. 减少作用域链上的查找次数
  5. 闭包
