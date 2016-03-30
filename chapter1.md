@@ -788,4 +788,5 @@ getData(function(err,data){
 
     ```javascript
     var myObject = {};
+    
     ```
