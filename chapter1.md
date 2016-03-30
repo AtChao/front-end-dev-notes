@@ -866,5 +866,15 @@ getData(function(err,data){
   + 全局作用域
 
     ```javascript
-    var foo = function(){}
+    var foo = function(){
+      var local = {};
+    }
+    foo();
+    console.log(local); //undefined
+
+    var bar = function(){
+        local = {}
+    }
+    bar();
+    console.log(local); //{}
     ```
