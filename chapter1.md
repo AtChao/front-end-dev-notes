@@ -745,3 +745,5 @@ getData(function(err,data){
 4. 避免遍历大量元素
 
 ## 2.8 内存专题
+
+1. js内存回收机制
