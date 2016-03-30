@@ -851,4 +851,4 @@ getData(function(err,data){
  
 6. 内存不是缓存
 
-  + 
+  + 不要轻易将内存当作缓存使用
