@@ -866,3 +866,5 @@ getData(function(err,data){
   + 全局作用域
 
     ```javascript
+    
+    ```
