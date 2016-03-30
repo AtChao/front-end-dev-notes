@@ -879,4 +879,4 @@ getData(function(err,data){
     console.log(local); //{}
     ```
     
-    其中：local={} 在这里定义等效于
+    其中：local={} 在这里定义等效于：global.local={}
