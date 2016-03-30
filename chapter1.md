@@ -798,7 +798,8 @@ getData(function(err,data){
   
     ```javascript
     function Encapsulator(element){
-      this.elementReference = element
+      this.elementReference = element;
+      
     }
     ```
   + DOM对象用attachEvent绑定事件
