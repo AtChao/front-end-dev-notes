@@ -946,3 +946,4 @@ getData(function(err,data){
     }
     ```
   + 避开闭包陷阱
+    + 
