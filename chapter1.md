@@ -887,6 +887,7 @@ getData(function(err,data){
     
     ```javascript
     function foo(){
+      var val = "hello";
     }
     ```
  4. 减少作用域链上的查找次数
