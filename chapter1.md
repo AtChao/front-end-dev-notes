@@ -798,6 +798,7 @@ getData(function(err,data){
   
     ```javascript
     function Encapsulator(element){
+      
     }
     ```
   + DOM对象用attachEvent绑定事件
