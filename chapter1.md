@@ -878,3 +878,5 @@ getData(function(err,data){
     bar();
     console.log(local); //{}
     ```
+    
+    其中：local={} 在这里定义等效于
