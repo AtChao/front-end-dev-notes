@@ -892,6 +892,8 @@ getData(function(err,data){
         function baz(){
           global.val = 'world;'
         }
+        baz();
+        console.log(val);//hello
       }
     }
     ```
