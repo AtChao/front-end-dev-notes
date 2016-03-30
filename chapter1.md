@@ -765,6 +765,6 @@ getData(function(err,data){
     function foo(){
       return function(){
         return val;
-        }
+      }
     }
     ```
