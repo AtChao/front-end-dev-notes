@@ -802,6 +802,7 @@ getData(function(err,data){
       element.myProp = this;
     }
     new Encapsulator(document.getElementById("myDiv"))
+    ```
     解决方法：在onunload事件中写入
     document.getElementById('id').myProp = null;
     ```
@@ -810,6 +811,7 @@ getData(function(err,data){
     ```javascript
     function doClick(){}
     element.attachEvent("onClick",doClick);
+    
     ```
   + 从外到内执行appendChild，这时即使调用removeChild也无法释放
   + 反复重写同一个属性会造成内存大幅占用（但关闭IE后内存会被释放）
