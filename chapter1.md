@@ -808,6 +808,7 @@ getData(function(err,data){
   + DOM对象用attachEvent绑定事件
   
     ```javascript
+    function doClick(){}
     ```
   + 从外到内执行appendChild，这时即使调用removeChild也无法释放
   + 反复重写同一个属性会造成内存大幅占用（但关闭IE后内存会被释放）
