@@ -889,6 +889,9 @@ getData(function(err,data){
     function foo(){
       var val = "hello";
       function bar(){
+        function baz(){
+          global.val = 'world;'
+        }
       }
     }
     ```
