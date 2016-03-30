@@ -747,3 +747,4 @@ getData(function(err,data){
 ## 2.8 内存专题
 
 1. js内存回收机制
+  + 
