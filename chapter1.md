@@ -802,7 +802,8 @@ getData(function(err,data){
       element.myProp = this;
     }
     new Encapsulator(document.getElementById("myDiv"))
-    解决方法：
+    解决方法：在onunload事件中写入
+    document.getElementById('id').myProp = null;
     ```
   + DOM对象用attachEvent绑定事件
   + 从外到内执行appendChild，这时即使调用removeChild也无法释放
