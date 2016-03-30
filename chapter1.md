@@ -790,6 +790,6 @@ getData(function(err,data){
     var myObject = {};
     document.getElementById("myDiv").myProp = myObject;
     
-    解决方法：在onunload时间中写上
+    解决方法：在window.onunload事件中中写上
     document.getElementById("myDiv").myProp = null;
     ```
