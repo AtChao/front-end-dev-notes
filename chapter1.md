@@ -911,34 +911,34 @@ getData(function(err,data){
 
       循环绑定时间，假定：有六个按钮，分别对应六种时间，当用户点击按钮时，在指定的地方输出相应时间
 
-var bans = document.querySelectorAll(‘.btn’); // six elements
-var output = document.querySelector(‘#output’);
-var events = [1,2,3,4,5,6];
-//Case 1
-for(var i=0;i<btns.length;i++){
-	btns[i].onclick = function(evt){
-		output.innnerText  += ‘Clicked’ +events[i];
-	}
-}
+      var bans = document.querySelectorAll(‘.btn’); // six elements
+      var output = document.querySelector(‘#output’);
+      var events = [1,2,3,4,5,6];
+      //Case 1
+      for(var i=0;i<btns.length;i++){
+          btns[i].onclick = function(evt){
+              output.innnerText  += ‘Clicked’ +events[i];
+          }
+      }
 
-/**这里第一个解决方案是典型的循环绑定事件错误，第二和第三个方案区别在闭包传入的参数**/
+      /**这里第一个解决方案是典型的循环绑定事件错误，第二和第三个方案区别在闭包传入的参数**/
 
-//Case 2
-for(var i=0;i<btns.length;i++){
-	btns[i].onclick = (function(index){
-		return function(evt){
-			output.innnerText  += ‘Clicked’ +events[index];
-		}
-	})(i)
-}
+      //Case 2
+      for(var i=0;i<btns.length;i++){
+          btns[i].onclick = (function(index){
+              return function(evt){
+                  output.innnerText  += ‘Clicked’ +events[index];
+              }
+           })(i)
+      }
 
-/**第二种传入的参数是当前循环下标，而后者是直接传入相应事件对象。事实上，后者更适合在大量数据应用的时候，因为在js的函数式编程中，函数调用传入的参数是基本类型对象，那么在函数体内的到的形成会是一个复制值，这样这个值就被当做一个局部变量定义在函数体的作用域内，在完成事件绑定之后就可以对events变量进行手工解除引用，以减轻外层作用域中的内存占用。而且当某个元素被删除时，相应的事件监听函数、事件对象、闭包函数也随之被销毁回收**/
+      /**第二种传入的参数是当前循环下标，而后者是直接传入相应事件对象。事实上，后者更适合在大量数据应用的时候，因为在js的函数式编程中，函数调用传入的参数是基本类型对象，那么在函数体内的到的形成会是一个复制值，这样这个值就被当做一个局部变量定义在函数体的作用域内，在完成事件绑定之后就可以对events变量进行手工解除引用，以减轻外层作用域中的内存占用。而且当某个元素被删除时，相应的事件监听函数、事件对象、闭包函数也随之被销毁回收**/
 
-//Case 3
-for(var i=0;i<btns.length;i++){
-	btns[i].onclick = (function(event){
-		return function(evt){
-			output.innerText += ‘Clicked’ + event;
-		}
-	})(events[i]);
-}
+      //Case 3
+      for(var i=0;i<btns.length;i++){
+          btns[i].onclick = (function(event){
+              return function(evt){
+                  output.innerText += ‘Clicked’ + event;
+              }
+          })(events[i]);
+      }
