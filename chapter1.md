@@ -818,6 +818,7 @@ getData(function(err,data){
     element.attachEvent("onClick",doClick);
     ```
     
+    解决办法：在
     ```javascript
     ```
   + 从外到内执行appendChild，这时即使调用removeChild也无法释放
