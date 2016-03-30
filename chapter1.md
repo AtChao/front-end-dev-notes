@@ -883,3 +883,4 @@ getData(function(err,data){
     
  3. 作用域链
  4. 减少作用域链上的查找次数
+ 5. 闭包
