@@ -794,4 +794,4 @@ getData(function(err,data){
     document.getElementById("myDiv").myProp = null;
     ```
 
-  + 
+  + DOM对象与JS对象相互引用
