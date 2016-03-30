@@ -954,20 +954,21 @@ getData(function(err,data){
   + 善用函数
     
     使用一个匿名函数在代码的最外层进行包裹
+    ```javascript
+    ;(function(){
+      //主业务代码
+    })();
 
-;(function(){
-	//主业务代码
-})();
+    有的甚至更高级一点
 
-有的甚至更高级一点
+    ;(function(win,doc,$,undefined){
+      //主业务代码
+    })(window,document,jQuery);
 
-;(function(win,doc,$,undefined){
-	//主业务代码
-})(window,document,jQuery);
+    甚至连 RequireJS，SeaJS，OzJS等前端模块化加载解决方案，都是采用类似的形式
 
-甚至连 RequireJS，SeaJS，OzJS等前端模块化加载解决方案，都是采用类似的形式
-
-/**RequireJS**/
-define([‘jquery’],function($){
-	//主业务代码
-});
+    /**RequireJS**/
+    define([‘jquery’],function($){
+      //主业务代码
+    });
+    ```
