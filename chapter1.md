@@ -796,4 +796,4 @@ getData(function(err,data){
 
   + DOM对象与JS对象相互引用
   + DOM对象用attachEvent绑定事件
-  + 
+  + 从外到内执行appendChild
