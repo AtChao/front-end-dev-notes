@@ -804,6 +804,7 @@ getData(function(err,data){
     new Encapsulator(document.getElementById("myDiv"))
     ```
     解决方法：在onunload事件中写入
+    
     ```javascript
     document.getElementById('id').myProp = null;
     ```
