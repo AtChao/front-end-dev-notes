@@ -841,3 +841,9 @@ getData(function(err,data){
     ```
 
   + 反复重写同一个属性会造成内存大幅占用（但关闭IE后内存会被释放）
+
+    ```javascript
+    for(i=0; i< 5000; i++){
+      hostElement.text = “asdf”;
+    }
+    ```
