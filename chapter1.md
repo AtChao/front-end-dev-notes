@@ -847,4 +847,4 @@ getData(function(err,data){
       hostElement.text = “asdf”;
     }
     ```
-    这种方式相当于定义了5000个属性，解决办法：无；
+    这种方式相当于定义了5000个属性，解决办法：暂无。
