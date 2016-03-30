@@ -763,5 +763,8 @@ getData(function(err,data){
     ```javascript
     var val = 'hello world';
     function foo(){
+      return function(){
+        return val;
+        }
     }
     ```
