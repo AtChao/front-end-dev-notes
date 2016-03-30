@@ -797,7 +797,8 @@ getData(function(err,data){
   + DOM对象与JS对象相互引用
   
     ```javascript
-    
+    function Encapsulator(element){
+    }
     ```
   + DOM对象用attachEvent绑定事件
   + 从外到内执行appendChild，这时即使调用removeChild也无法释放
