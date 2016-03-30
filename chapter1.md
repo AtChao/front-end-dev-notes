@@ -785,3 +785,5 @@ getData(function(err,data){
 5. js的内存泄漏处理
 
   + 给DOM对象添加的属性是一个对象的引用
+
+    ```javascript
