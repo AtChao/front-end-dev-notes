@@ -895,7 +895,9 @@ getData(function(err,data){
         baz();
         console.log(val);//hello
       }
+      bar();
     }
+    foo();
     ```
  4. 减少作用域链上的查找次数
  5. 闭包
