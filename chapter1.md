@@ -761,5 +761,6 @@ getData(function(err,data){
     是指代码对对象的访问这个抽象关系，它和C／C++ 的指针类似，但并非同物。引用同时也是js引擎在进行来记回收中最关键的一个机制。
     
     ```javascript
+    var val = 'hello world';
     
     ```
