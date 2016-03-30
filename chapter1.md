@@ -788,5 +788,5 @@ getData(function(err,data){
 
     ```javascript
     var myObject = {};
-    
+    document.getElementById("myDiv").myProp = myObject;
     ```
