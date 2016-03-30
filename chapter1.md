@@ -801,6 +801,7 @@ getData(function(err,data){
       this.elementReference = element;
       element.myProp = this;
     }
+    new Encapsulator(document.getElementById("myDiv"))
     ```
   + DOM对象用attachEvent绑定事件
   + 从外到内执行appendChild，这时即使调用removeChild也无法释放
