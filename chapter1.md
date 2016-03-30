@@ -881,4 +881,4 @@ getData(function(err,data){
     
     其中：local={} 在这里定义等效于：global.local={}
     
-3。 
+ 3. 作用域链
