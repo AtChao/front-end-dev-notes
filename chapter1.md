@@ -784,3 +784,4 @@ getData(function(err,data){
 4. IE下闭包引起跨页面内存泄露
 5. js的内存泄漏处理
 
+  +
