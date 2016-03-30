@@ -910,7 +910,7 @@ getData(function(err,data){
     + 循环事件绑定、私有属性、含参回调等一定要使用闭包时，谨慎对待其中细节
 
       循环绑定时间，假定：有六个按钮，分别对应六种时间，当用户点击按钮时，在指定的地方输出相应时间
-
+      ```javascript
       var bans = document.querySelectorAll(‘.btn’); // six elements
       var output = document.querySelector(‘#output’);
       var events = [1,2,3,4,5,6];
