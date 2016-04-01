@@ -126,4 +126,5 @@ $ sudo npm install -g cordova
   
   添加iOS平台模块
   
+  
 2. building for android
