@@ -144,7 +144,7 @@ Cannot read property 'then' of undefined
 ```
 需要做如下处理
 
- ```
+```
 sudo chmod -R 777 ~/.config
 ```
 或者
