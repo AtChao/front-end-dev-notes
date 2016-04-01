@@ -123,5 +123,5 @@ $ sudo npm install -g cordova
 ```
 
 1. building for iOS
-
+  
 2. building for android
