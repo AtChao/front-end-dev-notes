@@ -129,5 +129,6 @@ $ sudo npm install -g cordova
 ```bash
 $ ionic platform add ios
 ```
-  
+
+接下来，需要你安装xcode，
 2. building for android
