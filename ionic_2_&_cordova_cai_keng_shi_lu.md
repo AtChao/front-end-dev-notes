@@ -136,6 +136,11 @@ $ ionic platform add ios
 $ ionic emulate ios
 ```
 
-此时，就会出现
+此时，就会出现如下错误
+
+```
+    An Error occurred trying to fall back to Cordova-lib execution: TypeError:
+Cannot read property 'then' of undefined
+  ```
 
 2. building for android
