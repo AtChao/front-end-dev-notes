@@ -107,7 +107,7 @@ $ ionic serve
 
 需要添加
 
-```
+```javascript
 declare var Promise: PromiseConstructor;
 ```
 到`node_modules/angular2/src/facade/promise.d.ts`文件的头部：
@@ -126,5 +126,7 @@ $ sudo npm install -g cordova
   
   添加iOS平台模块
   
+  ```
+  ```
   
 2. building for android
