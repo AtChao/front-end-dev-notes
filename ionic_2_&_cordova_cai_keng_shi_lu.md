@@ -160,3 +160,5 @@ $ sudo chown -R $(whoami) ~/.config
 ```bash
 $ ionic platform add android
 ```
+
+其次，需要安装Android SDK。Android SDK 允许构建编译到指定android平台。推荐使用更加快捷的Genymotion。
