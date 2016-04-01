@@ -130,6 +130,9 @@ $ sudo npm install -g cordova
 $ ionic platform add ios
 ```
 
-接下来，需要你安装xcode。xcode允许你构建编译到目标设备。然后，你就可以运行ios模拟机。
+接下来，需要你安装xcode。xcode允许你构建编译到目标设备。然后，你就可以运行ios模拟机
+
+```bash
+```
 
 2. building for android
