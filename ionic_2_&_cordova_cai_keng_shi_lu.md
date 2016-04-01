@@ -136,4 +136,5 @@ $ ionic platform add ios
 $ ionic emulate ios
 ```
 
+此时，就会出现
 2. building for android
