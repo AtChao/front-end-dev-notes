@@ -142,5 +142,6 @@ $ ionic emulate ios
     An Error occurred trying to fall back to Cordova-lib execution: TypeError:
 Cannot read property 'then' of undefined
 ```
+需要做如下处理
 
 2. building for android
