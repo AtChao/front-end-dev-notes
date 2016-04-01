@@ -155,3 +155,4 @@ $ sudo chown -R $(whoami) ~/.config
 
 2. building for android
 
+对于android来说，需要同样添加android平台模块
