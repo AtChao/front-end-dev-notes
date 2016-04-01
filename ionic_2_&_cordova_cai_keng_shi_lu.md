@@ -142,14 +142,14 @@ $ ionic emulate ios
     An Error occurred trying to fall back to Cordova-lib execution: TypeError:
 Cannot read property 'then' of undefined
 ```
-需要做如下处理
+需要做如下处理 
 
-```
+```bash
 $ sudo chmod -R 777 ~/.config
 ```
 或者
 
-```
+```bash
 $ sudo chown -R $(whoami) ~/.config
 ```
 
