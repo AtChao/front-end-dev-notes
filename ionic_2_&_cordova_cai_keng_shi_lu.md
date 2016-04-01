@@ -124,10 +124,10 @@ $ sudo npm install -g cordova
 
 1. building for iOS
   
-  添加iOS平台模块
-  
-  ```bash
-  $ ionic platform add ios
-  ```
+添加iOS平台模块
+
+```bash
+$ ionic platform add ios
+```
   
 2. building for android
