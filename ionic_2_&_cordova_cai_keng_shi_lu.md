@@ -154,3 +154,4 @@ $ sudo chown -R $(whoami) ~/.config
 ```
 
 2. building for android
+
