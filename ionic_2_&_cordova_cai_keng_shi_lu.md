@@ -52,6 +52,7 @@ Cannot read property 'then' of undefined
 4. Error: spawn EACCES
 
 ```
+chmod +x hooks/after_prepare/010_add_platform_class.js
 ```
 
 ### Installation
