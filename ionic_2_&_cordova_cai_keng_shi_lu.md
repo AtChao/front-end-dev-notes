@@ -49,7 +49,7 @@ Cannot read property 'then' of undefined
     ```
     sudo chown -R $(whoami) ~/.config
     ```
-
+4. Error: spawn EACCES
 ### Installation
 
 #### 环境准备
